@@ -35,4 +35,10 @@ export default [
       ],
     },
   },
+  {
+    "extends": ["react-app", "react-app/jest", "plugin:react/recommended", "prettier"],
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    }
+  }  
 ]
